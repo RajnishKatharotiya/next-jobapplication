@@ -290,8 +290,8 @@ export default function Home() {
           {message}
         </p>}
         <div className='form-submit-btns'>
-          <button type='reset' onClick={() => { setMessage(''); setMessageType('') }}>Reset</button>
-          <button type='submit'>Apply</button>
+          <button type='reset' name='reset' onClick={() => { setMessage(''); setMessageType('') }}>Reset</button>
+          <button type='submit' name='submit'>Apply</button>
         </div>
       </form>
     </div>
