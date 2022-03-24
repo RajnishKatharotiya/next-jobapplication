@@ -286,7 +286,7 @@ export default function Home() {
           </div>
         </div>
 
-        {message && <p className={`form-message ${messageType}`}>
+        {message && <p className={`form-message ${messageType}`} id="message">
           {message}
         </p>}
         <div className='form-submit-btns'>
